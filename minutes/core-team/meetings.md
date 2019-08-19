@@ -22,3 +22,5 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * 2019-07-24 - Meeting cancelled due to a number of conflicts.
 * 2019-07-31 - Did not record due to technical difficulties.
 * 2019-08-07 - Discussed sensitive topics during the entire meeting.
+* [2019-08-14](https://youtu.be/0U9gN62eCvU)
+* 2019-08-21 - Did not meet due to RustConf.
