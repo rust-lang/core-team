@@ -24,3 +24,8 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * 2019-08-07 - Discussed sensitive topics during the entire meeting.
 * [2019-08-14](https://youtu.be/0U9gN62eCvU)
 * 2019-08-21 - Did not meet due to RustConf.
+* 2019-09-06 - Did not record due to technical difficulties.
+* 2019-09-13 - Only a few people were able to attend so nothing substantive was discussed.
+* 2019-09-20 - Did not record due to technical difficulties.
+* [2019-09-27](https://youtu.be/ZSDsrxV-mog)
+* [2019-10-04](https://youtu.be/4xgyyA5FT_0)
