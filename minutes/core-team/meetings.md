@@ -29,3 +29,10 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * 2019-09-20 - Did not record due to technical difficulties.
 * [2019-09-27](https://youtu.be/ZSDsrxV-mog)
 * [2019-10-04](https://youtu.be/4xgyyA5FT_0)
+* 2019-10-11 - Did not meet due to a number of conflicts.
+* 2019-10-18 - Did not meet due to Rust Belt Rust and other conflicts.
+* [2019-10-23](https://youtu.be/ZQ_lRe-zCWk)
+* [2019-10-30](https://youtu.be/i8TkdADZpO4)
+* [2019-11-06](https://youtu.be/ElyOeAXZMDs)
+* [2019-11-13](https://youtu.be/m5UkX2XFswI)
+* [2019-11-20](https://youtu.be/jySXgvMFcKI)
