@@ -36,3 +36,7 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * [2019-11-06](https://youtu.be/ElyOeAXZMDs)
 * [2019-11-13](https://youtu.be/m5UkX2XFswI)
 * [2019-11-20](https://youtu.be/jySXgvMFcKI)
+* [2019-11-27](https://youtu.be/603ETPXf_6o)
+* [2019-12-04](https://youtu.be/2-Rubo9Zr3E)
+* [2019-12-11](https://youtu.be/08gvVkahGrc)
+* 2019-12-18 - Only a few people were able to attend so nothing substantive was discussed.
