@@ -40,3 +40,6 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * [2019-12-04](https://youtu.be/2-Rubo9Zr3E)
 * [2019-12-11](https://youtu.be/08gvVkahGrc)
 * 2019-12-18 - Only a few people were able to attend so nothing substantive was discussed.
+* 2019-12-25 - Cancelled because of the holiday.
+* 2020-01-01 - Cancelled because of the holiday.
+* 2020-01-08 - Did not record due to technical difficulties.
