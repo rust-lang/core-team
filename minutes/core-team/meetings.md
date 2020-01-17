@@ -43,3 +43,4 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * 2019-12-25 - Cancelled because of the holiday.
 * 2020-01-01 - Cancelled because of the holiday.
 * 2020-01-08 - Did not record due to technical difficulties.
+* 2020-01-15 - Did not record due to technical difficulties.
