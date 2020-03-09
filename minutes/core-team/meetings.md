@@ -44,7 +44,10 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * 2020-01-01 - Cancelled because of the holiday.
 * 2020-01-08 - Did not record due to technical difficulties.
 * 2020-01-15 - Did not record due to technical difficulties.
-* [2020-01-22](Rust Core Team Meeting 2020-01-22)
+* [2020-01-22](https://youtu.be/dOXe3Qc5u6w)
 * 2020-01-29 - Discussed sensitive topics during the entire meeting.
 * 2020-02-05 - Discussed sensitive topics during the entire meeting.
-
+* [2020-02-12](https://youtu.be/17Y_FZzxWXo)
+* [2020-02-19](https://youtu.be/QSLdtlwCUFs)
+* [2020-02-26](https://youtu.be/-Go_upxELvc)
+* 2020-03-04 - Did not record due to technical difficulties.
