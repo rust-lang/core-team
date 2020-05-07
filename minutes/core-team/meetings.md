@@ -51,3 +51,11 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * [2020-02-19](https://youtu.be/QSLdtlwCUFs)
 * [2020-02-26](https://youtu.be/-Go_upxELvc)
 * 2020-03-04 - Did not record due to technical difficulties.
+* [2020-03-11](https://youtu.be/zyuycHlMdiI)
+* [2020-03-18](https://youtu.be/CFoN_2jmW1E)
+* [2020-03-25](https://youtu.be/RbRPkjvAceg)
+* [2020-04-01](https://youtu.be/P97kkIv0xSU)
+* [2020-04-08](https://youtu.be/fV9agy3JZ3o)
+* 2020-04-15 - Did not record due to technical difficulties.
+* [2020-04-22](https://youtu.be/dh2wcLcV0C8)
+* [2020-04-29](https://youtu.be/lcbHTdgfpW8)
