@@ -1,0 +1,27 @@
+---
+
+name: Agenda
+on:
+  issues:
+    types: [opened, deleted, transferred, closed, reopened, labeled, unlabeled]
+
+jobs:
+  handle:
+    name: Handle
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - name: Comment on new issues
+        run: python3 automation/new-issues.py rust-lang/core-team $ISSUE_NUMBER
+        if: github.event.action == 'opened'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+
+      - name: Update the agenda project board (private)
+        run: GITHUB_TOKEN=$TOKEN python3 automation/sync-project.py rust-lang 5 core-team
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
