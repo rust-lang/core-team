@@ -70,3 +70,8 @@ Please file issues or email core-team at rust-lang.org with any questions.
 * [2020-07-02](https://youtu.be/hjsw6dIg2gg)
 * [2020-07-09](https://youtu.be/hvBsFEipcuw)
 * [2020-07-16](https://youtu.be/nTYfL53VJQ4)
+* [2020-07-23](https://youtu.be/ebxwXXLhRoQ)
+* [2020-07-30](https://youtu.be/4kkGzuQ0tN0)
+* [2020-08-06](https://youtu.be/CbGrB61GUsQ)
+* [2020-08-13](https://youtu.be/hGYRFhK3akM)
+
