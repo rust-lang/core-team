@@ -151,6 +151,8 @@ def remove_card(client, card_id):
 
 
 def synchronize(client, org, project, current_repo):
+    to_add = []
+
     columns = fetch_project(client, org, project)
     for column in columns:
         label = column.automated_label(current_repo)
@@ -164,11 +166,23 @@ def synchronize(client, org, project, current_repo):
             if issue.number in current_issues:
                 del current_issues[issue.number]
             else:
-                print(f"adding issue {issue.number} to the board")
-                create_issue_card(client, column.id, issue.id)
+                # The GitHub API returns an error if we try to add an issue
+                # multiple times to the same project board.
+                #
+                # If an issue is moved from a column processed later to a
+                # column processed earlier we'd add the new card before we
+                # remove the old one, causing an error on GitHub's side.
+                #
+                # To work around the problem we first process all the
+                # deletions, and process the additions later.
+                to_add.append((column, issue))
         for issue_number, card_id in current_issues.items():
             print(f"removing issue {issue_number} from the board")
             remove_card(client, card_id)
+
+    for column, issue in to_add:
+        print(f"adding issue {issue.number} to the board")
+        create_issue_card(client, column.id, issue.id)
 
 
 if __name__ == "__main__":
