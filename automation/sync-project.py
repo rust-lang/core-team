@@ -134,14 +134,20 @@ def create_issue_card(client, column_id, issue_id):
     }), headers={
         "Accept": "application/vnd.github.inertia-preview+json"
     })
-    assert response.status_code == 201
+    if response.status_code != 201:
+        print(f"failed to add issue {issue_id} to column {column_id} (HTTP status {response.status_code})")
+        print(response.text)
+        exit(1)
 
 
 def remove_card(client, card_id):
     response = client.delete(f"https://api.github.com/projects/columns/cards/{card_id}", headers={
         "Accept": "application/vnd.github.inertia-preview+json"
     })
-    assert response.status_code == 204
+    if response.status_code != 204:
+        print(f"failed to remove card {card_id} (HTTP status {response.status_code})")
+        print(response.text)
+        exit(1)
 
 
 def synchronize(client, org, project, current_repo):
