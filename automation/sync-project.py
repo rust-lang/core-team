@@ -47,6 +47,9 @@ query($org: String!, $project: Int!) {
               databaseId
               note
               content {
+                ... on PullRequest {
+                  number
+                }
                 ... on Issue {
                   number
 } } } } } } } } }
